@@ -1,0 +1,81 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Trellix shape benchmark",
+  "colors": {
+    "primary": "#16A34A"
+  },
+  "navigation": {
+    "pages": [
+      "trellix/001",
+      "trellix/002",
+      {
+        "group": "Endpoint guide 045",
+        "root": "trellix/045/index",
+        "pages": [
+          "trellix/045/001",
+          "trellix/045/002",
+          "trellix/045/003"
+        ]
+      },
+      {
+        "group": "Endpoint guide 046",
+        "pages": [
+          "trellix/046/001"
+        ]
+      },
+      {
+        "group": "Endpoint guide 047",
+        "root": "trellix/047/index",
+        "pages": [
+          "trellix/047/001",
+          {
+            "group": "Endpoint guide 047.002",
+            "root": "trellix/047/002/index",
+            "pages": [
+              "trellix/047/002/001",
+              "trellix/047/002/002",
+              "trellix/047/002/003"
+            ]
+          },
+          {
+            "group": "Endpoint guide 047.003",
+            "root": "trellix/047/003/index",
+            "pages": [
+              "trellix/047/003/001",
+              "trellix/047/003/002",
+              "trellix/047/003/003"
+            ]
+          },
+          {
+            "group": "Endpoint guide 047.004",
+            "root": "trellix/047/004/index",
+            "pages": [
+              "trellix/047/004/001",
+              "trellix/047/004/002",
+              "trellix/047/004/003"
+            ]
+          },
+          {
+            "group": "Endpoint guide 047.005",
+            "root": "trellix/047/005/index",
+            "pages": [
+              "trellix/047/005/001",
+              "trellix/047/005/002"
+            ]
+          },
+          "trellix/047/006"
+        ]
+      },
+      {
+        "group": "Endpoint guide 048",
+        "root": "trellix/048/index",
+        "pages": [
+          "trellix/048/001",
+          "trellix/048/002",
+          "trellix/048/003"
+        ]
+      }
+    ]
+  }
+}
